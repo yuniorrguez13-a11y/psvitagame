@@ -1,0 +1,26 @@
+# Input axes (InputManager) — nombre: botones / eje
+
+Horizontal     pos='right'            neg='left'         altpos='d'            type=0 axis=0 joy=0
+Vertical       pos='up'               neg='down'         altpos='w'            type=0 axis=0 joy=0
+Fire1          pos='left ctrl'        neg=''             altpos='mouse 0'      type=0 axis=0 joy=0
+Fire2          pos='left alt'         neg=''             altpos='mouse 1'      type=0 axis=0 joy=0
+Fire3          pos='left shift'       neg=''             altpos='mouse 2'      type=0 axis=0 joy=0
+Jump           pos='space'            neg=''             altpos=''             type=0 axis=0 joy=0
+Mouse X        pos=''                 neg=''             altpos=''             type=2 axis=3 joy=0
+Mouse Y        pos=''                 neg=''             altpos=''             type=2 axis=4 joy=0
+Mouse ScrollWheel pos=''                 neg=''             altpos=''             type=1 axis=2 joy=0
+Horizontal     pos=''                 neg=''             altpos=''             type=2 axis=0 joy=0
+Vertical       pos=''                 neg=''             altpos=''             type=2 axis=1 joy=0
+Fire1          pos='joystick button 0' neg=''             altpos=''             type=0 axis=0 joy=0
+Fire2          pos='joystick button 1' neg=''             altpos=''             type=0 axis=0 joy=0
+Fire3          pos='joystick button 2' neg=''             altpos=''             type=0 axis=0 joy=0
+Jump           pos='joystick button 0' neg=''             altpos=''             type=0 axis=0 joy=0
+Square         pos='joystick button 2' neg=''             altpos=''             type=0 axis=0 joy=0
+Rtrigger       pos='joystick button 5' neg=''             altpos=''             type=0 axis=0 joy=0
+Ltrigger       pos='joystick button 4' neg=''             altpos=''             type=0 axis=0 joy=0
+Submit         pos='return'           neg=''             altpos='joystick button 0' type=0 axis=0 joy=0
+Submit         pos='enter'            neg=''             altpos='space'        type=0 axis=0 joy=0
+Circle         pos='escape'           neg=''             altpos='joystick button 1' type=0 axis=0 joy=0
+Cancel         pos='escape'           neg=''             altpos='joystick button 6' type=0 axis=0 joy=0
+Start          pos='escape'           neg=''             altpos='joystick button 7' type=0 axis=0 joy=0
+Select         pos='escape'           neg=''             altpos='joystick button 6' type=0 axis=0 joy=0

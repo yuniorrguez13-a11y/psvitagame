@@ -1,0 +1,25 @@
+[
+ {
+  "gameObject": "Main Camera",
+  "pathID": 535,
+  "script": "loadingScreen",
+  "data": {
+   "text": "PPtr(file=0, id=529)"
+  }
+ },
+ {
+  "gameObject": "Sarada Model",
+  "pathID": 534,
+  "script": "eyes",
+  "data": {
+   "eyeMat": "PPtr(file=2, id=4)",
+   "speed": 2.0,
+   "minTime": 1.0,
+   "maxTime": 3.0,
+   "maxOffset": 0.10000000149011612,
+   "minTimeAdd": 0.20000000298023224,
+   "maxTimeAdd": 1.0,
+   "maxOffsetAdd": 0.014999999664723873
+  }
+ }
+]

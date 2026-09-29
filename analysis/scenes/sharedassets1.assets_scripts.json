@@ -1,0 +1,228 @@
+[
+ {
+  "gameObject": "Kunai Chakra",
+  "pathID": 362,
+  "script": "throwingObject",
+  "data": {
+   "attack": {
+    "_name": "Throw",
+    "move": [],
+    "type": [
+     2
+    ],
+    "dmg": [
+     10
+    ],
+    "force": [
+     {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.0
+     }
+    ],
+    "soundIndex": [
+     4
+    ],
+    "Weapon": null,
+    "Throw": null
+   },
+   "obj": "PPtr(file=0, id=289)",
+   "from": null,
+   "t": "PPtr(file=0, id=298)",
+   "speed": 12.0,
+   "rotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   "targetT": null,
+   "target": null,
+   "lifeTime": 10.0,
+   "sparks": "PPtr(file=0, id=333)",
+   "collisSound": "PPtr(file=0, id=234)",
+   "collisBush": "PPtr(file=0, id=241)",
+   "deflectSound": "PPtr(file=0, id=234)",
+   "aud": "PPtr(file=0, id=323)"
+  }
+ },
+ {
+  "gameObject": "obj",
+  "pathID": 365,
+  "script": "ShadowVolume",
+  "data": {
+   "stencilBackFrontAlways": "PPtr(file=0, id=32)",
+   "stencilFrontBack": "PPtr(file=0, id=35)",
+   "stencilBackAlways": "PPtr(file=0, id=31)",
+   "stencilFrontAlways": "PPtr(file=0, id=34)",
+   "stencilFront": "PPtr(file=0, id=33)",
+   "stencilBack": "PPtr(file=0, id=30)",
+   "alphaBackAlways": "PPtr(file=0, id=23)",
+   "alphaFrontAlways": "PPtr(file=0, id=26)",
+   "alphaFront": "PPtr(file=0, id=25)",
+   "alphaBack": "PPtr(file=0, id=22)",
+   "alphaFrontAlwaysNoBlendOp": "PPtr(file=0, id=27)",
+   "alphaBackNoBlendOp": "PPtr(file=0, id=24)",
+   "shadowMesh": "PPtr(file=0, id=125)",
+   "isSimple": 0,
+   "layer": 0
+  }
+ },
+ {
+  "gameObject": "substitution_obj",
+  "pathID": 364,
+  "script": "ShadowVolume",
+  "data": {
+   "stencilBackFrontAlways": "PPtr(file=0, id=32)",
+   "stencilFrontBack": "PPtr(file=0, id=35)",
+   "stencilBackAlways": "PPtr(file=0, id=31)",
+   "stencilFrontAlways": "PPtr(file=0, id=34)",
+   "stencilFront": "PPtr(file=0, id=33)",
+   "stencilBack": "PPtr(file=0, id=30)",
+   "alphaBackAlways": "PPtr(file=0, id=23)",
+   "alphaFrontAlways": "PPtr(file=0, id=26)",
+   "alphaFront": "PPtr(file=0, id=25)",
+   "alphaBack": "PPtr(file=0, id=22)",
+   "alphaFrontAlwaysNoBlendOp": "PPtr(file=0, id=27)",
+   "alphaBackNoBlendOp": "PPtr(file=0, id=24)",
+   "shadowMesh": "PPtr(file=0, id=124)",
+   "isSimple": 0,
+   "layer": 0
+  }
+ },
+ {
+  "gameObject": "shuriken Chakra",
+  "pathID": 368,
+  "script": "throwingObject",
+  "data": {
+   "attack": {
+    "_name": "Throw",
+    "move": [],
+    "type": [
+     2
+    ],
+    "dmg": [
+     10
+    ],
+    "force": [
+     {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.0
+     }
+    ],
+    "soundIndex": [
+     4
+    ],
+    "Weapon": null,
+    "Throw": null
+   },
+   "obj": "PPtr(file=0, id=300)",
+   "from": null,
+   "t": "PPtr(file=0, id=295)",
+   "speed": 12.0,
+   "rotation": {
+    "x": 0.0,
+    "y": 150.0,
+    "z": 0.0
+   },
+   "targetT": null,
+   "target": null,
+   "lifeTime": 10.0,
+   "sparks": "PPtr(file=0, id=332)",
+   "collisSound": "PPtr(file=0, id=234)",
+   "collisBush": "PPtr(file=0, id=241)",
+   "deflectSound": "PPtr(file=0, id=234)",
+   "aud": "PPtr(file=0, id=325)"
+  }
+ },
+ {
+  "gameObject": "obj",
+  "pathID": 367,
+  "script": "ShadowVolume",
+  "data": {
+   "stencilBackFrontAlways": "PPtr(file=0, id=32)",
+   "stencilFrontBack": "PPtr(file=0, id=35)",
+   "stencilBackAlways": "PPtr(file=0, id=31)",
+   "stencilFrontAlways": "PPtr(file=0, id=34)",
+   "stencilFront": "PPtr(file=0, id=33)",
+   "stencilBack": "PPtr(file=0, id=30)",
+   "alphaBackAlways": "PPtr(file=0, id=23)",
+   "alphaFrontAlways": "PPtr(file=0, id=26)",
+   "alphaFront": "PPtr(file=0, id=25)",
+   "alphaBack": "PPtr(file=0, id=22)",
+   "alphaFrontAlwaysNoBlendOp": "PPtr(file=0, id=27)",
+   "alphaBackNoBlendOp": "PPtr(file=0, id=24)",
+   "shadowMesh": "PPtr(file=0, id=125)",
+   "isSimple": 0,
+   "layer": 0
+  }
+ },
+ {
+  "gameObject": "shuriken",
+  "pathID": 366,
+  "script": "throwingObject",
+  "data": {
+   "attack": {
+    "_name": "Throw",
+    "move": [],
+    "type": [
+     2
+    ],
+    "dmg": [
+     2
+    ],
+    "force": [
+     {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 2.0
+     }
+    ],
+    "soundIndex": [
+     4
+    ],
+    "Weapon": null,
+    "Throw": null
+   },
+   "obj": "PPtr(file=0, id=306)",
+   "from": null,
+   "t": "PPtr(file=0, id=307)",
+   "speed": 12.0,
+   "rotation": {
+    "x": 0.0,
+    "y": 150.0,
+    "z": 0.0
+   },
+   "targetT": null,
+   "target": null,
+   "lifeTime": 10.0,
+   "sparks": "PPtr(file=0, id=342)",
+   "collisSound": "PPtr(file=0, id=234)",
+   "collisBush": "PPtr(file=0, id=241)",
+   "deflectSound": "PPtr(file=0, id=234)",
+   "aud": "PPtr(file=0, id=324)"
+  }
+ },
+ {
+  "gameObject": "obj",
+  "pathID": 363,
+  "script": "ShadowVolume",
+  "data": {
+   "stencilBackFrontAlways": "PPtr(file=0, id=32)",
+   "stencilFrontBack": "PPtr(file=0, id=35)",
+   "stencilBackAlways": "PPtr(file=0, id=31)",
+   "stencilFrontAlways": "PPtr(file=0, id=34)",
+   "stencilFront": "PPtr(file=0, id=33)",
+   "stencilBack": "PPtr(file=0, id=30)",
+   "alphaBackAlways": "PPtr(file=0, id=23)",
+   "alphaFrontAlways": "PPtr(file=0, id=26)",
+   "alphaFront": "PPtr(file=0, id=25)",
+   "alphaBack": "PPtr(file=0, id=22)",
+   "alphaFrontAlwaysNoBlendOp": "PPtr(file=0, id=27)",
+   "alphaBackNoBlendOp": "PPtr(file=0, id=24)",
+   "shadowMesh": "PPtr(file=0, id=125)",
+   "isSimple": 0,
+   "layer": 0
+  }
+ }
+]

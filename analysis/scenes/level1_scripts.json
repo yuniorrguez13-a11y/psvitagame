@@ -1,0 +1,4124 @@
+[
+ {
+  "gameObject": "cam",
+  "pathID": 1723,
+  "script": "cameraSC",
+  "data": {
+   "settings": {
+    "basicXAngle": 1.0,
+    "basicHeight": 0.8999999761581421,
+    "HeightAdditive": 0.019999999552965164,
+    "Xangle": 0.10000000149011612,
+    "basicDist": 6.0,
+    "fightDist": 1.2999999523162842,
+    "HeightDist": 1.5,
+    "angleAdjust": 0.019999999552965164,
+    "maxAngle": 17.0
+   },
+   "cam": "PPtr(file=0, id=1340)",
+   "gameOptions": "PPtr(file=0, id=1724)",
+   "players": [
+    {
+     "player": null,
+     "icon": "PPtr(file=0, id=1770)",
+     "life": "PPtr(file=0, id=1693)",
+     "chakra": "PPtr(file=0, id=1769)",
+     "guard": "PPtr(file=0, id=1711)"
+    },
+    {
+     "player": null,
+     "icon": "PPtr(file=0, id=1714)",
+     "life": "PPtr(file=0, id=1757)",
+     "chakra": "PPtr(file=0, id=1765)",
+     "guard": "PPtr(file=0, id=1682)"
+    }
+   ],
+   "camT": "PPtr(file=0, id=751)",
+   "dist": 3.0,
+   "height": 1.7000000476837158,
+   "Options": {
+    "RotSpeed": {
+     "x": 200.0,
+     "y": 100.0
+    },
+    "inversX": 0,
+    "inversY": 0
+   },
+   "maskObstCam": {
+    "m_Bits": 0
+   },
+   "NinjCamera": "PPtr(file=0, id=1225)",
+   "cameraAnim": "PPtr(file=0, id=1432)",
+   "ninjActor": null,
+   "Xrot": 2.672466278076172,
+   "playerDistance": 9.689865112304688
+  }
+ },
+ {
+  "gameObject": "cam",
+  "pathID": 1724,
+  "script": "GameOptions",
+  "data": {
+   "panel": "PPtr(file=0, id=240)",
+   "aliasing": {
+    "msaaTog": null
+   },
+   "shadows": {
+    "light": null,
+    "disabled": null,
+    "low": null,
+    "medium": null
+   },
+   "fps": {
+    "target30": "PPtr(file=0, id=1751)",
+    "target60": "PPtr(file=0, id=1696)"
+   },
+   "resolution": {
+    "res960": null,
+    "res720": null,
+    "res480": null
+   },
+   "bloom": null,
+   "bloomTog": null,
+   "colorSuite": null,
+   "colorSuiteTog": null
+  }
+ },
+ {
+  "gameObject": "Sarada",
+  "pathID": 1720,
+  "script": "controller",
+  "data": {
+   "sounds": {
+    "aud": "PPtr(file=0, id=1428)",
+    "recoverChakra": "PPtr(file=2, id=232)",
+    "hited": [
+     "PPtr(file=2, id=238)",
+     "PPtr(file=2, id=247)",
+     "PPtr(file=2, id=235)"
+    ],
+    "ko": [
+     "PPtr(file=2, id=248)",
+     "PPtr(file=2, id=237)"
+    ],
+    "attack": [
+     "PPtr(file=2, id=227)",
+     "PPtr(file=2, id=222)",
+     "PPtr(file=2, id=240)"
+    ],
+    "jump": [
+     "PPtr(file=2, id=223)",
+     "PPtr(file=2, id=239)"
+    ],
+    "dodge": [
+     "PPtr(file=2, id=230)",
+     "PPtr(file=2, id=239)"
+    ]
+   },
+   "bones": {
+    "head": "PPtr(file=0, id=739)",
+    "chest": "PPtr(file=0, id=1274)",
+    "leftHand": "PPtr(file=0, id=970)",
+    "rightHand": "PPtr(file=0, id=919)"
+   },
+   "_player": 0,
+   "state": 0,
+   "action": 0,
+   "oldAction": 0,
+   "stats": {
+    "icon": "PPtr(file=2, id=256)",
+    "hp": 500,
+    "hpMax": 500,
+    "chakra": 500,
+    "chakraMax": 500,
+    "guard": 100,
+    "guardMax": 100,
+    "speedMove": 5.0,
+    "jumpPower": 8.0,
+    "dashSpeed": 10.0
+   },
+   "isPlayer": 1,
+   "character": "PPtr(file=0, id=1738)",
+   "target": "PPtr(file=0, id=1735)",
+   "substitution": null,
+   "moveSpeed": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   "moveFight": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   "_jump": 0,
+   "_hit": 0,
+   "components": {
+    "rend": "PPtr(file=0, id=1456)",
+    "shadow": "PPtr(file=0, id=1454)",
+    "col": "PPtr(file=0, id=1452)",
+    "anim": "PPtr(file=0, id=1431)",
+    "cam": "PPtr(file=0, id=1723)",
+    "directionToEnemy": "PPtr(file=0, id=761)",
+    "aud": "PPtr(file=0, id=1429)",
+    "step": "PPtr(file=2, id=245)",
+    "dash": "PPtr(file=2, id=231)",
+    "hits": [
+     "PPtr(file=2, id=228)",
+     "PPtr(file=2, id=244)",
+     "PPtr(file=2, id=243)",
+     "PPtr(file=2, id=221)",
+     "PPtr(file=2, id=233)"
+    ],
+    "miss": [
+     "PPtr(file=2, id=225)",
+     "PPtr(file=2, id=229)"
+    ],
+    "toFloor": [
+     "PPtr(file=2, id=236)"
+    ],
+    "substHit": "PPtr(file=2, id=242)",
+    "startCHRecover": "PPtr(file=2, id=226)",
+    "substitSound": "PPtr(file=2, id=246)",
+    "ThrowSound": "PPtr(file=2, id=224)",
+    "ChakraRecoverEffect": "PPtr(file=0, id=1500)",
+    "substitutionObj": "PPtr(file=2, id=274)",
+    "ThrowObj": "PPtr(file=2, id=287)",
+    "guardObj": "PPtr(file=0, id=547)"
+   },
+   "_particles": {
+    "hits": [
+     "PPtr(file=0, id=1491)"
+    ]
+   },
+   "attacks": [
+    {
+     "_name": "PunchR",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "type": [
+      0
+     ],
+     "dmg": [
+      5
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "soundIndex": [
+      0
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "SideDoubleSlashing",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "type": [
+      0,
+      1
+     ],
+     "dmg": [
+      7,
+      7
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 0.0
+      },
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "soundIndex": [
+      1,
+      0
+     ],
+     "Weapon": "PPtr(file=0, id=398)",
+     "Throw": null
+    },
+    {
+     "_name": "TurnKick",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 4.0
+      }
+     ],
+     "type": [
+      1
+     ],
+     "dmg": [
+      10
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "soundIndex": [
+      0
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "JumpTurnKick",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 4.0
+      }
+     ],
+     "type": [
+      2,
+      5
+     ],
+     "dmg": [
+      6,
+      12
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 2.0
+      },
+      {
+       "x": 0.0,
+       "y": 3.0,
+       "z": 6.0
+      }
+     ],
+     "soundIndex": [
+      1,
+      3
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "DoubleUppercut",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "type": [
+      3,
+      4
+     ],
+     "dmg": [
+      6,
+      15
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 1.0
+      },
+      {
+       "x": 0.0,
+       "y": 6.0,
+       "z": 2.0
+      }
+     ],
+     "soundIndex": [
+      1,
+      2
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "Dash",
+     "move": [],
+     "type": [
+      2
+     ],
+     "dmg": [
+      5
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 2.0
+      }
+     ],
+     "soundIndex": [
+      0
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "Throw_JumpCross",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      },
+      {
+       "x": 0.0,
+       "y": 5.0,
+       "z": -3.0
+      }
+     ],
+     "type": [
+      0
+     ],
+     "dmg": [
+      10
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 5.0
+      }
+     ],
+     "soundIndex": [
+      1
+     ],
+     "Weapon": null,
+     "Throw": "PPtr(file=2, id=268)"
+    },
+    {
+     "_name": "TurnKickSpinKick",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 5.0
+      },
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 5.0
+      }
+     ],
+     "type": [
+      2,
+      5
+     ],
+     "dmg": [
+      7,
+      15
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 3.0,
+       "z": 4.0
+      },
+      {
+       "x": 2.0,
+       "y": 3.0,
+       "z": 6.0
+      }
+     ],
+     "soundIndex": [
+      0,
+      2
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "Ninjutsu_ShurikenSpringStorm",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 13.0,
+       "z": 0.0
+      }
+     ],
+     "type": [],
+     "dmg": [],
+     "force": [],
+     "soundIndex": [],
+     "Weapon": null,
+     "Throw": "PPtr(file=2, id=279)"
+    }
+   ],
+   "breakedGuard": {
+    "move": [
+     {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 6.0
+     },
+     {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 4.0
+     }
+    ]
+   },
+   "disabled": 0,
+   "guard": 0,
+   "hitedTime": 0.0
+  }
+ },
+ {
+  "gameObject": "Sarada",
+  "pathID": 1738,
+  "script": "MyController",
+  "data": {
+   "colliderOptions": {
+    "stepHeight": 0.10000000149011612,
+    "height": 1.399999976158142,
+    "radius": 0.3499999940395355,
+    "castDistanse": 0.0,
+    "debugCollider": {
+     "r": 0.2957875728607178,
+     "g": 1.0,
+     "b": 0.0,
+     "a": 1.0
+    },
+    "debugCastDist": {
+     "r": 0.0,
+     "g": 0.378267765045166,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "dir": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "pos": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   },
+   "myT": "PPtr(file=0, id=1129)",
+   "rb": "PPtr(file=0, id=1414)",
+   "coll": "PPtr(file=0, id=1452)",
+   "grounded": 0,
+   "groundMasks": {
+    "m_Bits": 1
+   },
+   "directionMove": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   "jump": 0.0,
+   "dashTime": 0.0,
+   "gravity": 20.0,
+   "maxGravity": 10.0,
+   "oldPos": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  }
+ },
+ {
+  "gameObject": "Shadow",
+  "pathID": 1695,
+  "script": "SkinnedShadowVolume",
+  "data": {
+   "stencilBackFrontAlways": "PPtr(file=2, id=32)",
+   "stencilFrontBack": "PPtr(file=2, id=35)",
+   "stencilBackAlways": "PPtr(file=2, id=31)",
+   "stencilFrontAlways": "PPtr(file=2, id=34)",
+   "stencilFront": "PPtr(file=2, id=33)",
+   "stencilBack": "PPtr(file=2, id=30)",
+   "alphaBackAlways": "PPtr(file=2, id=23)",
+   "alphaFrontAlways": "PPtr(file=2, id=26)",
+   "alphaFront": "PPtr(file=2, id=25)",
+   "alphaBack": "PPtr(file=2, id=22)",
+   "alphaFrontAlwaysNoBlendOp": "PPtr(file=2, id=27)",
+   "alphaBackNoBlendOp": "PPtr(file=2, id=24)",
+   "isSimple": 0,
+   "backend": 0
+  }
+ },
+ {
+  "gameObject": "Directional Light",
+  "pathID": 1742,
+  "script": "ShadowVolumeSource",
+  "data": {
+   "shadowColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.3921568691730499
+   },
+   "extrudeBias": 0.05000000074505806,
+   "extrudeAmount": 100.0
+  }
+ },
+ {
+  "gameObject": "Directional Light",
+  "pathID": 1741,
+  "script": "ShadowVolumeRenderer",
+  "data": {
+   "stencilClear": "PPtr(file=2, id=28)",
+   "stencilInterpolate": "PPtr(file=2, id=29)",
+   "alphaClear": "PPtr(file=2, id=15)",
+   "alphaClamp": "PPtr(file=2, id=14)",
+   "alphaStrength": "PPtr(file=2, id=21)",
+   "alphaInterpolate": "PPtr(file=2, id=20)",
+   "alphaFlip0": "PPtr(file=2, id=16)",
+   "alphaFlip1": "PPtr(file=2, id=17)",
+   "alphaFlip2": "PPtr(file=2, id=18)",
+   "alphaFlip3": "PPtr(file=2, id=19)",
+   "backend": 0,
+   "layer": 0,
+   "quadMesh": "PPtr(file=0, id=2)"
+  }
+ },
+ {
+  "gameObject": "Canvas",
+  "pathID": 1744,
+  "script": "CanvasScaler",
+  "data": {
+   "m_UiScaleMode": 1,
+   "m_ReferencePixelsPerUnit": 100.0,
+   "m_ScaleFactor": 1.0,
+   "m_ReferenceResolution": {
+    "x": 720.0,
+    "y": 408.0
+   },
+   "m_ScreenMatchMode": 0,
+   "m_MatchWidthOrHeight": 0.0,
+   "m_PhysicalUnit": 3,
+   "m_FallbackScreenDPI": 96.0,
+   "m_DefaultSpriteDPI": 96.0,
+   "m_DynamicPixelsPerUnit": 1.0
+  }
+ },
+ {
+  "gameObject": "Canvas",
+  "pathID": 1743,
+  "script": "GraphicRaycaster",
+  "data": {
+   "m_IgnoreReversedGraphics": 1,
+   "m_BlockingObjects": 0,
+   "m_BlockingMask": {
+    "m_Bits": 4294967295
+   }
+  }
+ },
+ {
+  "gameObject": "option panel",
+  "pathID": 1707,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=259)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "option panel",
+  "pathID": 1708,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.6980392336845398
+   },
+   "m_EffectDistance": {
+    "x": 1.0,
+    "y": -1.0
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Options",
+  "pathID": 1750,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=4, id=20)",
+    "m_FontSize": 18,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 4,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "OPTIONS"
+  }
+ },
+ {
+  "gameObject": "aliasing",
+  "pathID": 1704,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 16,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Anti-aliasing"
+  }
+ },
+ {
+  "gameObject": "aliasing",
+  "pathID": 1703,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.5
+   },
+   "m_EffectDistance": {
+    "x": 1.0,
+    "y": -1.0
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Toggle MSAA",
+  "pathID": 1745,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1739)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1759)",
+   "m_Group": null,
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "SetAliasing",
+       "m_Mode": 6,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1739,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1759,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=253)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1758,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+   },
+   "m_EffectDistance": {
+    "x": 0.5,
+    "y": -0.5
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1749,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "MSAA"
+  }
+ },
+ {
+  "gameObject": "shadows",
+  "pathID": 1740,
+  "script": "ToggleGroup",
+  "data": {
+   "m_AllowSwitchOff": 0
+  }
+ },
+ {
+  "gameObject": "shadows",
+  "pathID": 1718,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 16,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Shadows"
+  }
+ },
+ {
+  "gameObject": "shadows",
+  "pathID": 1717,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.5
+   },
+   "m_EffectDistance": {
+    "x": 1.0,
+    "y": -1.0
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Toggle disabled",
+  "pathID": 1694,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1698)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1727)",
+   "m_Group": "PPtr(file=0, id=1740)",
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "SetShadows",
+       "m_Mode": 6,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1698,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1727,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 0.25471699237823486,
+    "g": 0.25471699237823486,
+    "b": 0.25471699237823486,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=255)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1686,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "disabled"
+  }
+ },
+ {
+  "gameObject": "Toggle low",
+  "pathID": 1762,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1684)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1700)",
+   "m_Group": "PPtr(file=0, id=1740)",
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "SetShadows",
+       "m_Mode": 6,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1684,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1700,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 0.25471699237823486,
+    "g": 0.25471699237823486,
+    "b": 0.25471699237823486,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=255)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1748,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "low"
+  }
+ },
+ {
+  "gameObject": "Toggle medium",
+  "pathID": 1763,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1746)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1766)",
+   "m_Group": "PPtr(file=0, id=1740)",
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "SetShadows",
+       "m_Mode": 6,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1746,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1766,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 0.25471699237823486,
+    "g": 0.25471699237823486,
+    "b": 0.25471699237823486,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=255)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1678,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "medium"
+  }
+ },
+ {
+  "gameObject": "fps",
+  "pathID": 1705,
+  "script": "ToggleGroup",
+  "data": {
+   "m_AllowSwitchOff": 0
+  }
+ },
+ {
+  "gameObject": "fps",
+  "pathID": 1756,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 16,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Target FPS"
+  }
+ },
+ {
+  "gameObject": "fps",
+  "pathID": 1755,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.5
+   },
+   "m_EffectDistance": {
+    "x": 1.0,
+    "y": -1.0
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Toggle 30",
+  "pathID": 1751,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1767)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1752)",
+   "m_Group": "PPtr(file=0, id=1705)",
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": "PPtr(file=0, id=1724)",
+       "m_MethodName": "SetFPS",
+       "m_Mode": 6,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1767,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1752,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 0.25471699237823486,
+    "g": 0.25471699237823486,
+    "b": 0.25471699237823486,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=255)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1734,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "30fps"
+  }
+ },
+ {
+  "gameObject": "Toggle 60",
+  "pathID": 1696,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1710)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1709)",
+   "m_Group": "PPtr(file=0, id=1705)",
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": "PPtr(file=0, id=1724)",
+       "m_MethodName": "SetFPS",
+       "m_Mode": 6,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1710,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1709,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 0.25471699237823486,
+    "g": 0.25471699237823486,
+    "b": 0.25471699237823486,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=255)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1681,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "60fps\n"
+  }
+ },
+ {
+  "gameObject": "resolution",
+  "pathID": 1706,
+  "script": "ToggleGroup",
+  "data": {
+   "m_AllowSwitchOff": 0
+  }
+ },
+ {
+  "gameObject": "fps",
+  "pathID": 1692,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 16,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Resolution"
+  }
+ },
+ {
+  "gameObject": "fps",
+  "pathID": 1691,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.5
+   },
+   "m_EffectDistance": {
+    "x": 1.0,
+    "y": -1.0
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Toggle 960",
+  "pathID": 1764,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1699)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1677)",
+   "m_Group": "PPtr(file=0, id=1706)",
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "setResolution",
+       "m_Mode": 1,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1699,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1677,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 0.25471699237823486,
+    "g": 0.25471699237823486,
+    "b": 0.25471699237823486,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=255)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1737,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "960x544"
+  }
+ },
+ {
+  "gameObject": "Toggle 720",
+  "pathID": 1726,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1768)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1731)",
+   "m_Group": "PPtr(file=0, id=1706)",
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "setResolution",
+       "m_Mode": 1,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1768,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1731,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 0.25471699237823486,
+    "g": 0.25471699237823486,
+    "b": 0.25471699237823486,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=255)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1683,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "720x408"
+  }
+ },
+ {
+  "gameObject": "Toggle 480",
+  "pathID": 1719,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1730)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1716)",
+   "m_Group": "PPtr(file=0, id=1706)",
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "setResolution",
+       "m_Mode": 1,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1730,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1716,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 0.25471699237823486,
+    "g": 0.25471699237823486,
+    "b": 0.25471699237823486,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=255)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1736,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "480x272"
+  }
+ },
+ {
+  "gameObject": "Close",
+  "pathID": 1713,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 0.3921568691730499
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=260)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Close",
+  "pathID": 1712,
+  "script": "Button",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1713)",
+   "m_OnClick": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": "PPtr(file=0, id=1724)",
+       "m_MethodName": "OpenOptionPanel",
+       "m_Mode": 1,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   }
+  }
+ },
+ {
+  "gameObject": "Text",
+  "pathID": 1679,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 4,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Close"
+  }
+ },
+ {
+  "gameObject": "Default",
+  "pathID": 1754,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 0.3921568691730499
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=260)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Default",
+  "pathID": 1753,
+  "script": "Button",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1754)",
+   "m_OnClick": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": "PPtr(file=0, id=385)",
+       "m_MethodName": "",
+       "m_Mode": 1,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   }
+  }
+ },
+ {
+  "gameObject": "Text",
+  "pathID": 1680,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 4,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Default"
+  }
+ },
+ {
+  "gameObject": "Bloom",
+  "pathID": 1688,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 16,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Bloom"
+  }
+ },
+ {
+  "gameObject": "Bloom",
+  "pathID": 1687,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.5
+   },
+   "m_EffectDistance": {
+    "x": 1.0,
+    "y": -1.0
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Toggle Bloom",
+  "pathID": 1702,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1729)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1722)",
+   "m_Group": null,
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "SetBloom",
+       "m_Mode": 6,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1729,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1722,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=253)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1721,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+   },
+   "m_EffectDistance": {
+    "x": 0.5,
+    "y": -0.5
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1725,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Fast"
+  }
+ },
+ {
+  "gameObject": "Bloom (1)",
+  "pathID": 1690,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 16,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "ColorSuite"
+  }
+ },
+ {
+  "gameObject": "Bloom (1)",
+  "pathID": 1689,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.5
+   },
+   "m_EffectDistance": {
+    "x": 1.0,
+    "y": -1.0
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Toggle Bloom",
+  "pathID": 1701,
+  "script": "Toggle",
+  "data": {
+   "m_Navigation": {
+    "m_Mode": 3,
+    "m_SelectOnUp": null,
+    "m_SelectOnDown": null,
+    "m_SelectOnLeft": null,
+    "m_SelectOnRight": null
+   },
+   "m_Transition": 1,
+   "m_Colors": {
+    "m_NormalColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "m_HighlightedColor": {
+     "r": 0.9607843160629272,
+     "g": 0.9607843160629272,
+     "b": 0.9607843160629272,
+     "a": 1.0
+    },
+    "m_PressedColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 1.0
+    },
+    "m_DisabledColor": {
+     "r": 0.7843137383460999,
+     "g": 0.7843137383460999,
+     "b": 0.7843137383460999,
+     "a": 0.501960813999176
+    },
+    "m_ColorMultiplier": 1.0,
+    "m_FadeDuration": 0.10000000149011612
+   },
+   "m_SpriteState": {
+    "m_HighlightedSprite": null,
+    "m_PressedSprite": null,
+    "m_DisabledSprite": null
+   },
+   "m_AnimationTriggers": {
+    "m_NormalTrigger": "Normal",
+    "m_HighlightedTrigger": "Highlighted",
+    "m_PressedTrigger": "Pressed",
+    "m_DisabledTrigger": "Disabled"
+   },
+   "m_Interactable": 1,
+   "m_TargetGraphic": "PPtr(file=0, id=1747)",
+   "toggleTransition": 1,
+   "graphic": "PPtr(file=0, id=1733)",
+   "m_Group": null,
+   "onValueChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": [
+      {
+       "m_Target": null,
+       "m_MethodName": "SetcolorSuite",
+       "m_Mode": 6,
+       "m_Arguments": {
+        "m_ObjectArgument": null,
+        "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+        "m_IntArgument": 0,
+        "m_FloatArgument": 0.0,
+        "m_StringArgument": "",
+        "m_BoolArgument": 0
+       },
+       "m_CallState": 2
+      }
+     ]
+    },
+    "m_TypeName": "UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_IsOn": 0
+  }
+ },
+ {
+  "gameObject": "Background",
+  "pathID": 1747,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=254)",
+   "m_Type": 1,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1733,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=253)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Checkmark",
+  "pathID": 1732,
+  "script": "Outline",
+  "data": {
+   "m_EffectColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+   },
+   "m_EffectDistance": {
+    "x": 0.5,
+    "y": -0.5
+   },
+   "m_UseGraphicAlpha": 1
+  }
+ },
+ {
+  "gameObject": "Label",
+  "pathID": 1761,
+  "script": "Text",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_FontData": {
+    "m_Font": "PPtr(file=3, id=10102)",
+    "m_FontSize": 14,
+    "m_FontStyle": 1,
+    "m_BestFit": 0,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 1,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+   },
+   "m_Text": "Fast"
+  }
+ },
+ {
+  "gameObject": "EventSystem",
+  "pathID": 1676,
+  "script": "EventSystem",
+  "data": {
+   "m_FirstSelected": null,
+   "m_sendNavigationEvents": 1,
+   "m_DragThreshold": 10
+  }
+ },
+ {
+  "gameObject": "EventSystem",
+  "pathID": 1685,
+  "script": "StandaloneInputModule",
+  "data": {
+   "m_HorizontalAxis": "Horizontal",
+   "m_VerticalAxis": "Vertical",
+   "m_SubmitButton": "Submit",
+   "m_CancelButton": "Cancel",
+   "m_InputActionsPerSecond": 10.0,
+   "m_RepeatDelay": 0.5,
+   "m_ForceModuleActive": 0
+  }
+ },
+ {
+  "gameObject": "iconPlayer",
+  "pathID": 1770,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=261)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "life",
+  "pathID": 1715,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=257)",
+   "m_Type": 0,
+   "m_PreserveAspect": 1,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "life",
+  "pathID": 1693,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=262)",
+   "m_Type": 3,
+   "m_PreserveAspect": 1,
+   "m_FillCenter": 1,
+   "m_FillMethod": 0,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "chakra",
+  "pathID": 1769,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=263)",
+   "m_Type": 3,
+   "m_PreserveAspect": 1,
+   "m_FillCenter": 1,
+   "m_FillMethod": 0,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "guard",
+  "pathID": 1711,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=264)",
+   "m_Type": 3,
+   "m_PreserveAspect": 1,
+   "m_FillCenter": 1,
+   "m_FillMethod": 0,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "iconPlayer",
+  "pathID": 1714,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=258)",
+   "m_Type": 0,
+   "m_PreserveAspect": 0,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "life",
+  "pathID": 1728,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=257)",
+   "m_Type": 0,
+   "m_PreserveAspect": 1,
+   "m_FillCenter": 1,
+   "m_FillMethod": 4,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "life",
+  "pathID": 1757,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=262)",
+   "m_Type": 3,
+   "m_PreserveAspect": 1,
+   "m_FillCenter": 1,
+   "m_FillMethod": 0,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "chakra",
+  "pathID": 1765,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=263)",
+   "m_Type": 3,
+   "m_PreserveAspect": 1,
+   "m_FillCenter": 1,
+   "m_FillMethod": 0,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "guard",
+  "pathID": 1682,
+  "script": "Image",
+  "data": {
+   "m_Material": null,
+   "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+   },
+   "m_RaycastTarget": 1,
+   "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+     "m_Calls": []
+    },
+    "m_TypeName": "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   },
+   "m_Sprite": "PPtr(file=2, id=264)",
+   "m_Type": 3,
+   "m_PreserveAspect": 1,
+   "m_FillCenter": 1,
+   "m_FillMethod": 0,
+   "m_FillAmount": 1.0,
+   "m_FillClockwise": 1,
+   "m_FillOrigin": 0
+  }
+ },
+ {
+  "gameObject": "Sarada BOT",
+  "pathID": 1735,
+  "script": "controller",
+  "data": {
+   "sounds": {
+    "aud": "PPtr(file=0, id=1427)",
+    "recoverChakra": "PPtr(file=2, id=232)",
+    "hited": [
+     "PPtr(file=2, id=238)",
+     "PPtr(file=2, id=247)",
+     "PPtr(file=2, id=235)"
+    ],
+    "ko": [
+     "PPtr(file=2, id=248)",
+     "PPtr(file=2, id=237)"
+    ],
+    "attack": [
+     "PPtr(file=2, id=227)",
+     "PPtr(file=2, id=222)",
+     "PPtr(file=2, id=240)"
+    ],
+    "jump": [
+     "PPtr(file=2, id=223)",
+     "PPtr(file=2, id=239)"
+    ],
+    "dodge": [
+     "PPtr(file=2, id=230)",
+     "PPtr(file=2, id=239)"
+    ]
+   },
+   "bones": {
+    "head": "PPtr(file=0, id=718)",
+    "chest": "PPtr(file=0, id=1324)",
+    "leftHand": "PPtr(file=0, id=1263)",
+    "rightHand": "PPtr(file=0, id=895)"
+   },
+   "_player": 0,
+   "state": 0,
+   "action": 0,
+   "oldAction": 0,
+   "stats": {
+    "icon": "PPtr(file=2, id=256)",
+    "hp": 500,
+    "hpMax": 500,
+    "chakra": 500,
+    "chakraMax": 500,
+    "guard": 100,
+    "guardMax": 100,
+    "speedMove": 5.0,
+    "jumpPower": 8.0,
+    "dashSpeed": 10.0
+   },
+   "isPlayer": 0,
+   "character": "PPtr(file=0, id=1760)",
+   "target": "PPtr(file=0, id=1720)",
+   "substitution": null,
+   "moveSpeed": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   "moveFight": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   "_jump": 0,
+   "_hit": 0,
+   "components": {
+    "rend": "PPtr(file=0, id=1457)",
+    "shadow": "PPtr(file=0, id=1455)",
+    "col": "PPtr(file=0, id=1453)",
+    "anim": "PPtr(file=0, id=1433)",
+    "cam": "PPtr(file=0, id=1723)",
+    "directionToEnemy": "PPtr(file=0, id=993)",
+    "aud": "PPtr(file=0, id=1430)",
+    "step": "PPtr(file=2, id=245)",
+    "dash": "PPtr(file=2, id=231)",
+    "hits": [
+     "PPtr(file=2, id=228)",
+     "PPtr(file=2, id=244)",
+     "PPtr(file=2, id=243)",
+     "PPtr(file=2, id=221)",
+     "PPtr(file=2, id=233)"
+    ],
+    "miss": [
+     "PPtr(file=2, id=225)",
+     "PPtr(file=2, id=229)"
+    ],
+    "toFloor": [
+     "PPtr(file=2, id=236)"
+    ],
+    "substHit": "PPtr(file=2, id=242)",
+    "startCHRecover": "PPtr(file=2, id=226)",
+    "substitSound": "PPtr(file=2, id=246)",
+    "ThrowSound": "PPtr(file=2, id=224)",
+    "ChakraRecoverEffect": "PPtr(file=0, id=1478)",
+    "substitutionObj": "PPtr(file=2, id=274)",
+    "ThrowObj": "PPtr(file=2, id=287)",
+    "guardObj": "PPtr(file=0, id=437)"
+   },
+   "_particles": {
+    "hits": [
+     "PPtr(file=0, id=1479)"
+    ]
+   },
+   "attacks": [
+    {
+     "_name": "PunchR",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "type": [
+      0
+     ],
+     "dmg": [
+      5
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "soundIndex": [
+      0
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "SideDoubleSlashing",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "type": [
+      0,
+      1
+     ],
+     "dmg": [
+      7,
+      7
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 0.0
+      },
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "soundIndex": [
+      1,
+      0
+     ],
+     "Weapon": "PPtr(file=0, id=511)",
+     "Throw": null
+    },
+    {
+     "_name": "TurnKick",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 4.0
+      }
+     ],
+     "type": [
+      1
+     ],
+     "dmg": [
+      10
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "soundIndex": [
+      0
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "JumpTurnKick",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 4.0
+      }
+     ],
+     "type": [
+      2,
+      5
+     ],
+     "dmg": [
+      6,
+      12
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 2.0
+      },
+      {
+       "x": 0.0,
+       "y": 3.0,
+       "z": 6.0
+      }
+     ],
+     "soundIndex": [
+      1,
+      3
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "DoubleUppercut",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      }
+     ],
+     "type": [
+      3,
+      4
+     ],
+     "dmg": [
+      6,
+      15
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 1.0
+      },
+      {
+       "x": 0.0,
+       "y": 6.0,
+       "z": 2.0
+      }
+     ],
+     "soundIndex": [
+      1,
+      2
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "Dash",
+     "move": [],
+     "type": [
+      2
+     ],
+     "dmg": [
+      5
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 2.0
+      }
+     ],
+     "soundIndex": [
+      0
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "Throw_JumpCross",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 3.0
+      },
+      {
+       "x": 0.0,
+       "y": 5.0,
+       "z": -3.0
+      }
+     ],
+     "type": [
+      0
+     ],
+     "dmg": [
+      10
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 5.0
+      }
+     ],
+     "soundIndex": [
+      1
+     ],
+     "Weapon": null,
+     "Throw": "PPtr(file=2, id=268)"
+    },
+    {
+     "_name": "TurnKickSpinKick",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 5.0
+      },
+      {
+       "x": 0.0,
+       "y": 0.0,
+       "z": 5.0
+      }
+     ],
+     "type": [
+      2,
+      5
+     ],
+     "dmg": [
+      7,
+      15
+     ],
+     "force": [
+      {
+       "x": 0.0,
+       "y": 3.0,
+       "z": 4.0
+      },
+      {
+       "x": 2.0,
+       "y": 3.0,
+       "z": 6.0
+      }
+     ],
+     "soundIndex": [
+      0,
+      2
+     ],
+     "Weapon": null,
+     "Throw": null
+    },
+    {
+     "_name": "Ninjutsu_ShurikenSpringStorm",
+     "move": [
+      {
+       "x": 0.0,
+       "y": 13.0,
+       "z": 0.0
+      }
+     ],
+     "type": [],
+     "dmg": [],
+     "force": [],
+     "soundIndex": [],
+     "Weapon": null,
+     "Throw": "PPtr(file=2, id=279)"
+    }
+   ],
+   "breakedGuard": {
+    "move": [
+     {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 6.0
+     },
+     {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 4.0
+     }
+    ]
+   },
+   "disabled": 0,
+   "guard": 0,
+   "hitedTime": 0.0
+  }
+ },
+ {
+  "gameObject": "Sarada BOT",
+  "pathID": 1760,
+  "script": "MyController",
+  "data": {
+   "colliderOptions": {
+    "stepHeight": 0.10000000149011612,
+    "height": 1.399999976158142,
+    "radius": 0.3499999940395355,
+    "castDistanse": 0.0,
+    "debugCollider": {
+     "r": 0.2957875728607178,
+     "g": 1.0,
+     "b": 0.0,
+     "a": 1.0
+    },
+    "debugCastDist": {
+     "r": 0.0,
+     "g": 0.378267765045166,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "dir": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "pos": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   },
+   "myT": "PPtr(file=0, id=1273)",
+   "rb": "PPtr(file=0, id=1415)",
+   "coll": "PPtr(file=0, id=1453)",
+   "grounded": 0,
+   "groundMasks": {
+    "m_Bits": 1
+   },
+   "directionMove": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   "jump": 0.0,
+   "dashTime": 0.0,
+   "gravity": 20.0,
+   "maxGravity": 10.0,
+   "oldPos": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  }
+ },
+ {
+  "gameObject": "Shadow",
+  "pathID": 1697,
+  "script": "SkinnedShadowVolume",
+  "data": {
+   "stencilBackFrontAlways": "PPtr(file=2, id=32)",
+   "stencilFrontBack": "PPtr(file=2, id=35)",
+   "stencilBackAlways": "PPtr(file=2, id=31)",
+   "stencilFrontAlways": "PPtr(file=2, id=34)",
+   "stencilFront": "PPtr(file=2, id=33)",
+   "stencilBack": "PPtr(file=2, id=30)",
+   "alphaBackAlways": "PPtr(file=2, id=23)",
+   "alphaFrontAlways": "PPtr(file=2, id=26)",
+   "alphaFront": "PPtr(file=2, id=25)",
+   "alphaBack": "PPtr(file=2, id=22)",
+   "alphaFrontAlwaysNoBlendOp": "PPtr(file=2, id=27)",
+   "alphaBackNoBlendOp": "PPtr(file=2, id=24)",
+   "isSimple": 0,
+   "backend": 0
+  }
+ }
+]

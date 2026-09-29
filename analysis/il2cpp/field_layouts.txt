@@ -1,0 +1,310 @@
+== GameOptions_Aliasing  (object header 8 bytes; instance size 0xc)
+  +0x008  msaaTog  : UnityEngine_UI_Toggle_o*
+== GameOptions  (object header 8 bytes; instance size 0x30)
+  +0x008  m_CachedPtr  : intptr_t
+  +0x00c  panel  : UnityEngine_GameObject_o*
+  +0x010  aliasing  : GameOptions_Aliasing_o*
+  +0x014  shadows  : GameOptions_Shadows_o*
+  +0x018  fps  : GameOptions_Fps_o*
+  +0x01c  resolution  : GameOptions_Resolution_o*
+  +0x020  bloom  : FastMobileBloom_o*
+  +0x024  bloomTog  : UnityEngine_UI_Toggle_o*
+  +0x028  colorSuite  : ColorSuite_o*
+  +0x02c  colorSuiteTog  : UnityEngine_UI_Toggle_o*
+== GameOptions_Fps  (object header 8 bytes; instance size 0x10)
+  +0x008  target30  : UnityEngine_UI_Toggle_o*
+  +0x00c  target60  : UnityEngine_UI_Toggle_o*
+== GameOptions_Resolution  (object header 8 bytes; instance size 0x14)
+  +0x008  res960  : UnityEngine_UI_Toggle_o*
+  +0x00c  res720  : UnityEngine_UI_Toggle_o*
+  +0x010  res480  : UnityEngine_UI_Toggle_o*
+== GameOptions_Shadows  (object header 8 bytes; instance size 0x18)
+  +0x008  light  : UnityEngine_Light_o*
+  +0x00c  disabled  : UnityEngine_UI_Toggle_o*
+  +0x010  low  : UnityEngine_UI_Toggle_o*
+  +0x014  medium  : UnityEngine_UI_Toggle_o*
+== MyController_CollisionTest  (object header 8 bytes; instance size 0x50)
+  +0x008  stepHeight  : float
+  +0x00c  height  : float
+  +0x010  radius  : float
+  +0x014  castDistanse  : float
+  +0x018  debugCollider  : UnityEngine_Color_o
+  +0x028  debugCastDist  : UnityEngine_Color_o
+  +0x038  dir  : UnityEngine_Vector3_o
+  +0x044  pos  : UnityEngine_Vector3_o
+== MyController  (object header 8 bytes; instance size 0x50)
+  +0x008  m_CachedPtr  : intptr_t
+  +0x00c  colliderOptions  : MyController_CollisionTest_o*
+  +0x010  myT  : UnityEngine_Transform_o*
+  +0x014  rb  : UnityEngine_Rigidbody_o*
+  +0x018  coll  : UnityEngine_CapsuleCollider_o*
+  +0x01c  grounded  : bool
+  +0x020  groundMasks  : UnityEngine_LayerMask_o
+  +0x024  directionMove  : UnityEngine_Vector3_o
+  +0x030  jump  : float
+  +0x034  dashTime  : float
+  +0x038  gravity  : float
+  +0x03c  maxGravity  : float
+  +0x040  myController  : controller_o*
+  +0x044  oldPos  : UnityEngine_Vector3_o
+== cameraSC_CameraOption  (object header 8 bytes; instance size 0x14)
+  +0x008  RotSpeed  : UnityEngine_Vector2_o
+  +0x010  inversX  : bool
+  +0x011  inversY  : bool
+== cameraSC_CameraSettings  (object header 8 bytes; instance size 0x2c)
+  +0x008  basicXAngle  : float
+  +0x00c  basicHeight  : float
+  +0x010  HeightAdditive  : float
+  +0x014  Xangle  : float
+  +0x018  basicDist  : float
+  +0x01c  fightDist  : float
+  +0x020  HeightDist  : float
+  +0x024  angleAdjust  : float
+  +0x028  maxAngle  : float
+== cameraSC  (object header 8 bytes; instance size 0x78)
+  +0x008  m_CachedPtr  : intptr_t
+  +0x00c  settings  : cameraSC_CameraSettings_o*
+  +0x010  t  : UnityEngine_Transform_o*
+  +0x014  cam  : UnityEngine_Camera_o*
+  +0x018  gameOptions  : GameOptions_o*
+  +0x01c  players  : cameraSC_Players_array*
+  +0x020  camT  : UnityEngine_Transform_o*
+  +0x024  dist  : float
+  +0x028  height  : float
+  +0x02c  camRot  : UnityEngine_Vector3_o
+  +0x038  Options  : cameraSC_CameraOption_o*
+  +0x03c  distance  : float
+  +0x040  maskObstCam  : UnityEngine_LayerMask_o
+  +0x044  NinjCamera  : UnityEngine_Transform_o*
+  +0x048  cameraAnim  : UnityEngine_Animator_o*
+  +0x04c  ninjActor  : MyController_o*
+  +0x050  ZdistAdditive  : float
+  +0x054  YCamAdditive  : float
+  +0x058  speedRot  : float
+  +0x05c  inFight  : float
+  +0x060  playerCamDistance  : float
+  +0x064  oldPos  : UnityEngine_Vector3_o
+  +0x070  Xrot  : float
+  +0x074  playerDistance  : float
+== cameraSC_Players  (object header 8 bytes; instance size 0x1c)
+  +0x008  player  : controller_o*
+  +0x00c  icon  : UnityEngine_UI_Image_o*
+  +0x010  life  : UnityEngine_UI_Image_o*
+  +0x014  chakra  : UnityEngine_UI_Image_o*
+  +0x018  guard  : UnityEngine_UI_Image_o*
+== collisionSC  (object header 8 bytes; instance size 0x2c)
+  +0x008  m_CachedPtr  : intptr_t
+  +0x00c  t  : UnityEngine_Transform_o*
+  +0x010  gravity  : float
+  +0x014  maxGravity  : float
+  +0x018  grounded  : bool
+  +0x01c  myCollider  : UnityEngine_Collider_o*
+  +0x020  dir  : UnityEngine_Vector3_o
+== controller_Action  (object header 8 bytes; instance size 0xc)
+  +0x008  value__  : int32_t
+== controller_Attacks  (object header 8 bytes; instance size 0x28)
+  +0x008  _name  : System_String_o*
+  +0x00c  move  : UnityEngine_Vector3_array*
+  +0x010  type  : controller_Attacks_hitType_array*
+  +0x014  dmg  : System_Int32_array*
+  +0x018  force  : UnityEngine_Vector3_array*
+  +0x01c  soundIndex  : System_Int32_array*
+  +0x020  Weapon  : UnityEngine_GameObject_o*
+  +0x024  Throw  : UnityEngine_GameObject_o*
+== controller_Attacks_hitType  (object header 8 bytes; instance size 0xc)
+  +0x008  value__  : int32_t
+== controller_Bones  (object header 8 bytes; instance size 0x18)
+  +0x008  head  : UnityEngine_Transform_o*
+  +0x00c  chest  : UnityEngine_Transform_o*
+  +0x010  leftHand  : UnityEngine_Transform_o*
+  +0x014  rightHand  : UnityEngine_Transform_o*
+== controller_BreakedGuard  (object header 8 bytes; instance size 0xc)
+  +0x008  move  : UnityEngine_Vector3_array*
+== controller_CharStats  (object header 8 bytes; instance size 0x30)
+  +0x008  icon  : UnityEngine_Sprite_o*
+  +0x00c  hp  : int32_t
+  +0x010  hpMax  : int32_t
+  +0x014  chakra  : int32_t
+  +0x018  chakraMax  : int32_t
+  +0x01c  guard  : int32_t
+  +0x020  guardMax  : int32_t
+  +0x024  speedMove  : float
+  +0x028  jumpPower  : float
+  +0x02c  dashSpeed  : float
+== controller_Components  (object header 8 bytes; instance size 0x58)
+  +0x008  rend  : UnityEngine_SkinnedMeshRenderer_o*
+  +0x00c  shadow  : UnityEngine_SkinnedMeshRenderer_o*
+  +0x010  col  : UnityEngine_Collider_o*
+  +0x014  anim  : UnityEngine_Animator_o*
+  +0x018  cam  : cameraSC_o*
+  +0x01c  directionToEnemy  : UnityEngine_Transform_o*
+  +0x020  aud  : UnityEngine_AudioSource_o*
+  +0x024  step  : UnityEngine_AudioClip_o*
+  +0x028  dash  : UnityEngine_AudioClip_o*
+  +0x02c  hits  : UnityEngine_AudioClip_array*
+  +0x030  miss  : UnityEngine_AudioClip_array*
+  +0x034  toFloor  : UnityEngine_AudioClip_array*
+  +0x038  substHit  : UnityEngine_AudioClip_o*
+  +0x03c  startCHRecover  : UnityEngine_AudioClip_o*
+  +0x040  substitSound  : UnityEngine_AudioClip_o*
+  +0x044  ThrowSound  : UnityEngine_AudioClip_o*
+  +0x048  ChakraRecoverEffect  : UnityEngine_ParticleSystem_o*
+  +0x04c  substitutionObj  : UnityEngine_GameObject_o*
+  +0x050  ThrowObj  : UnityEngine_GameObject_o*
+  +0x054  guardObj  : UnityEngine_GameObject_o*
+== controller  (object header 8 bytes; instance size 0xcc)
+  +0x008  m_CachedPtr  : intptr_t
+  +0x00c  sounds  : controller_Sounds_o*
+  +0x010  bones  : controller_Bones_o*
+  +0x014  _player  : int32_t
+  +0x018  state  : int32_t
+  +0x01c  action  : int32_t
+  +0x020  oldAction  : int32_t
+  +0x024  stats  : controller_CharStats_o*
+  +0x028  isPlayer  : bool
+  +0x02c  character  : MyController_o*
+  +0x030  target  : controller_o*
+  +0x034  substitution  : UnityEngine_Transform_o*
+  +0x038  move  : bool
+  +0x039  oldMove  : bool
+  +0x03c  dir  : UnityEngine_Vector3_o
+  +0x048  moveSpeed  : UnityEngine_Vector3_o
+  +0x054  moveFight  : UnityEngine_Vector3_o
+  +0x060  rot  : UnityEngine_Vector3_o
+  +0x06c  _jump  : int32_t
+  +0x070  _hit  : int32_t
+  +0x074  oldGrounded  : bool
+  +0x078  hitForce  : float
+  +0x07c  components  : controller_Components_o*
+  +0x080  _particles  : controller__Particles_o*
+  +0x084  attacks  : controller_Attacks_array*
+  +0x088  AttacksList  : System_Collections_Generic_Dictionary_string__controller_Attacks__o*
+  +0x08c  breakedGuard  : controller_BreakedGuard_o*
+  +0x090  thisAttack  : controller_Attacks_o*
+  +0x094  blockTime  : float
+  +0x098  oldRtrigger  : bool
+  +0x099  disabled  : bool
+  +0x09a  guard  : bool
+  +0x09c  jumpTime  : float
+  +0x0a0  jumpBool  : bool
+  +0x0a4  hitedTime  : float
+  +0x0a8  oldGUARDbutton  : bool
+  +0x0a9  oldSQUAREbutton  : bool
+  +0x0ac  SQUAREtime  : float
+  +0x0b0  SQUAREbool  : bool
+  +0x0b1  oldTHROWbutton  : bool
+  +0x0b4  THROWtime  : float
+  +0x0b8  THROWbool  : bool
+  +0x0bc  botDirRandom  : UnityEngine_Vector3_o
+  +0x0c8  startAttackDist  : float
+== controller_Sounds  (object header 8 bytes; instance size 0x24)
+  +0x008  aud  : UnityEngine_AudioSource_o*
+  +0x00c  recoverChakra  : UnityEngine_AudioClip_o*
+  +0x010  hited  : UnityEngine_AudioClip_array*
+  +0x014  ko  : UnityEngine_AudioClip_array*
+  +0x018  attack  : UnityEngine_AudioClip_array*
+  +0x01c  jump  : UnityEngine_AudioClip_array*
+  +0x020  dodge  : UnityEngine_AudioClip_array*
+== controller_State  (object header 8 bytes; instance size 0xc)
+  +0x008  value__  : int32_t
+== controller__Particles  (object header 8 bytes; instance size 0xc)
+  +0x008  hits  : UnityEngine_ParticleSystem_array*
+== controller__Substitution_c__Iterator1  (object header 8 bytes; instance size 0x30)
+  +0x008  _substObj___0  : UnityEngine_GameObject_o*
+  +0x00c  _rb___0  : UnityEngine_Rigidbody_o*
+  +0x010  from  : controller_o*
+  +0x014  attack  : controller_Attacks_o*
+  +0x018  index  : int32_t
+  +0x01c  _time___0  : float
+  +0x020  _this  : controller_o*
+  +0x024  _current  : Il2CppObject*
+  +0x028  _disposing  : bool
+  +0x02c  _PC  : int32_t
+== controller__guardRecovering_c__Iterator2  (object header 8 bytes; instance size 0x18)
+  +0x008  _this  : controller_o*
+  +0x00c  _current  : Il2CppObject*
+  +0x010  _disposing  : bool
+  +0x014  _PC  : int32_t
+== controller__recoverChakra_c__Iterator0  (object header 8 bytes; instance size 0x18)
+  +0x008  _this  : controller_o*
+  +0x00c  _current  : Il2CppObject*
+  +0x010  _disposing  : bool
+  +0x014  _PC  : int32_t
+== eyes  (object header 8 bytes; instance size 0x4c)
+  +0x008  m_CachedPtr  : intptr_t
+  +0x00c  eyeMat  : UnityEngine_Material_o*
+  +0x010  offset  : UnityEngine_Vector2_o
+  +0x018  toOffset  : UnityEngine_Vector2_o
+  +0x020  randomTime  : float
+  +0x024  speed  : float
+  +0x028  minTime  : float
+  +0x02c  maxTime  : float
+  +0x030  maxOffset  : float
+  +0x034  toOffsetAdd  : UnityEngine_Vector2_o
+  +0x03c  randomTimeAdd  : float
+  +0x040  minTimeAdd  : float
+  +0x044  maxTimeAdd  : float
+  +0x048  maxOffsetAdd  : float
+== loadingScreen  (object header 8 bytes; instance size 0x14)
+  +0x008  m_CachedPtr  : intptr_t
+  +0x00c  sceneAO  : UnityEngine_AsyncOperation_o*
+  +0x010  text  : UnityEngine_TextMesh_o*
+== loadingScreen__LoadingSceneRealProgress_c__Iterator0  (object header 8 bytes; instance size 0x20)
+  +0x008  sceneName  : System_String_o*
+  +0x00c  _loaded___0  : bool
+  +0x010  _this  : loadingScreen_o*
+  +0x014  _current  : Il2CppObject*
+  +0x018  _disposing  : bool
+  +0x01c  _PC  : int32_t
+== throwingObject  (object header 8 bytes; instance size 0x4c)
+  +0x008  m_CachedPtr  : intptr_t
+  +0x00c  attack  : controller_Attacks_o*
+  +0x010  obj  : UnityEngine_Transform_o*
+  +0x014  from  : controller_o*
+  +0x018  t  : UnityEngine_Transform_o*
+  +0x01c  speed  : float
+  +0x020  rotation  : UnityEngine_Vector3_o
+  +0x02c  targetT  : UnityEngine_Transform_o*
+  +0x030  target  : controller_o*
+  +0x034  lifeTime  : float
+  +0x038  sparks  : UnityEngine_ParticleSystem_o*
+  +0x03c  collisSound  : UnityEngine_AudioClip_o*
+  +0x040  collisBush  : UnityEngine_AudioClip_o*
+  +0x044  deflectSound  : UnityEngine_AudioClip_o*
+  +0x048  aud  : UnityEngine_AudioSource_o*
+== value type UnityEngine_Vector3 size 0xc (no header when inline)
+  +0x000  x  : float
+  +0x004  y  : float
+  +0x008  z  : float
+== value type UnityEngine_Vector2 size 0x8 (no header when inline)
+  +0x000  x  : float
+  +0x004  y  : float
+== value type UnityEngine_Quaternion size 0x10 (no header when inline)
+  +0x000  x  : float
+  +0x004  y  : float
+  +0x008  z  : float
+  +0x00c  w  : float
+== value type UnityEngine_RaycastHit size 0x2c (no header when inline)
+  +0x000  m_Point  : UnityEngine_Vector3_o
+  +0x00c  m_Normal  : UnityEngine_Vector3_o
+  +0x018  m_FaceID  : uint32_t
+  +0x01c  m_Distance  : float
+  +0x020  m_UV  : UnityEngine_Vector2_o
+  +0x028  m_Collider  : int32_t
+== value type UnityEngine_Color size 0x10 (no header when inline)
+  +0x000  r  : float
+  +0x004  g  : float
+  +0x008  b  : float
+  +0x00c  a  : float
+== value type UnityEngine_LayerMask size 0x4 (no header when inline)
+  +0x000  m_Mask  : int32_t
+== value type UnityEngine_AnimatorStateInfo size 0x24 (no header when inline)
+  +0x000  m_Name  : int32_t
+  +0x004  m_Path  : int32_t
+  +0x008  m_FullPath  : int32_t
+  +0x00c  m_NormalizedTime  : float
+  +0x010  m_Length  : float
+  +0x014  m_Speed  : float
+  +0x018  m_SpeedMultiplier  : float
+  +0x01c  m_Tag  : int32_t
+  +0x020  m_Loop  : int32_t
