@@ -85,7 +85,7 @@ public class cameraSC : MonoBehaviour
         ninjActor = c;
         NinjCamera.gameObject.SetActive(true);
         camT.gameObject.SetActive(false);
-        cameraAnim.Play("ninj");
+        cameraAnim.Play("ninj", 0);
     }
 
     public void EndCamera()

@@ -290,8 +290,8 @@ public class controller : MonoBehaviour
         {
             if (time < 1.4f && !components.rend.enabled)
             {
-                // NOTE: attack names in the scene are e.g. "Throw_JumpCross"; the literal compared here is exactly "Throw"
-                // (probably the name used by the kunai prefab's throwingObject.attack).
+                // "Throw" is the _name of the kunai prefab's throwingObject.attack (sharedassets1),
+                // i.e. substituting a kunai hit makes you pop up in place instead of behind the thrower.
                 if (attack._name != "Throw")
                 {
                     character.myT.position = from.character.myT.position + from.character.myT.TransformDirection(Vector3.back) * 1.3f;
@@ -306,7 +306,7 @@ public class controller : MonoBehaviour
                 components.shadow.enabled = true;
                 components.col.enabled = true;
                 fine();
-                // NOTE: the binary calls the Animator.Play(string, int) overload with layer 0.
+                // Animator.Play(string, int) with layer 0 (the 1-arg overload was stripped from the build).
                 components.anim.Play("idle", 0);
             }
             if (time < 1f && substitution == substObj.transform)
