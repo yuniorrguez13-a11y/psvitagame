@@ -29,8 +29,9 @@ En C++/IL2CPP no existe el C# original dentro del juego, así que lo que se hizo
    (`analysis/il2cpp/`).
 3. Generar un **desensamblado ARM anotado** de las 8 clases del juego (`analysis/asm/`), con nombres de funciones,
    textos y campos.
-4. **Reconstruir el C#** método por método a partir de ese desensamblado. Después se hizo una segunda pasada
-   independiente que compara cada método con el ensamblador y corrige lo que no coincide.
+4. **Reconstruir el C#** método por método a partir de ese desensamblado. Después, 15 revisores independientes
+   compararon cada método con el ensamblador, instrucción por instrucción, y no encontraron diferencias de
+   comportamiento. Además se comprobaron a mano las constantes clave de `dmg`.
 5. Leer las escenas con UnityPy: la jerarquía de objetos y los valores que tenía cada script en el Inspector
    (`analysis/scenes/`).
 
@@ -64,8 +65,8 @@ En C++/IL2CPP no existe el C# original dentro del juego, así que lo que se hizo
 - **Regeneración**: guardia +1 cada 0,1 s. Chakra +1 cada 0,2 s, o +5 cada 0,07 s mientras cargas con L.
 - **Bot**: se acerca con un desvío aleatorio y carga chakra cuando le queda poco. A media distancia tira kunai y
   esquiva al azar; de cerca spamea combos y a veces se cubre.
-- **Todavía no se puede ganar**: cuando la vida llega a 0 se rellena al máximo. Parece código de pruebas del autor
-  y es lo primero que habría que cambiar para tener rondas y victoria.
+- **Todavía no se puede ganar**: cuando la vida baja de 0 "da la vuelta" (`hp = hpMax + hp`) en vez de terminar el
+  combate. Parece código de pruebas del autor y es lo primero que habría que cambiar para tener rondas y victoria.
 - **Opciones**: solo funciona 30/60 FPS (guardado en `PlayerPrefs["Settings.fpsTarget"]`). Sombras,
   antialiasing, bloom y resolución tienen botones pero sus funciones están vacías.
 

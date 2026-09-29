@@ -20,8 +20,9 @@ Código C# de las 8 clases propias del juego, reconstruido a partir del binario 
   valores guardados en las escenas (tabla de ataques, stats, referencias) se enlazan solos.
 - Compilan sin errores contra la API real de Unity del juego (las DLL de referencia que genera
   Il2CppDumper) con C# 7.3 / .NET 4.7.1.
-- Cada método se revisó contra el ensamblador. Las dudas que quedan están marcadas con `// NOTE:`
-  y los arreglos de esa revisión con `// FIX(verified):`.
+- Cada método se revisó por separado contra el ensamblador, sin encontrar diferencias de comportamiento.
+  Los puntos dudosos o raros del original (por ejemplo, valores calculados que nunca se usan) están
+  marcados con `// NOTE:`.
 - No se recuperan los comentarios ni los nombres de variables locales del autor (el compilador los
   borra). La lógica, las constantes y los textos sí son los del binario.
 
