@@ -1,0 +1,589 @@
+﻿# Informe del export de AssetRipper
+
+## ProjectVersion.txt
+  m_EditorVersion: 2018.2.0b4
+
+Raiz del proyecto: export\UnityProject\ExportedProject
+
+## Archivos por extension (total 959)
+  .meta        450
+  .cs          174
+  .mat         65
+  .anim        61
+  .png         51
+  .asset       41
+  .resS        28
+  .audioclip   28
+  .shader      26
+  .asmdef      13
+  .texture2D   10
+  .prefab      4
+  .controller  3
+  .unity       2
+  .txt         1
+  .json        1
+  .ttf         1
+
+## Carpetas de primer y segundo nivel en Assets
+  1  (24 archivos)
+  AnimationClip  (122 archivos)
+  AnimatorController  (6 archivos)
+  AudioClip  (84 archivos)
+  Avatar  (4 archivos)
+  Cubemap  (4 archivos)
+  Font  (2 archivos)
+  GameObject  (8 archivos)
+  load  (4 archivos)
+  Material  (130 archivos)
+  Mesh  (20 archivos)
+  Scripts  (361 archivos)
+    Assembly-CSharp  (76 archivos)
+    Unity.TextMeshPro  (91 archivos)
+    Unity.TextMeshPro.Tests  (3 archivos)
+    UnityEngine.GoogleAudioSpatializer  (9 archivos)
+    UnityEngine.HoloLens  (13 archivos)
+    UnityEngine.IMGUIModule  (3 archivos)
+    UnityEngine.Networking  (29 archivos)
+    UnityEngine.SpatialTracking  (7 archivos)
+    UnityEngine.StyleSheetsModule  (3 archivos)
+    UnityEngine.TestRunner  (7 archivos)
+    UnityEngine.TilemapModule  (5 archivos)
+    UnityEngine.Timeline  (27 archivos)
+    UnityEngine.UI  (83 archivos)
+    UnityEngine.UIElementsModule  (5 archivos)
+  Shader  (52 archivos)
+  Sprite  (18 archivos)
+  Texture2D  (98 archivos)
+
+## Escenas, prefabs, animators
+  Assets\1.unity
+  Assets\load.unity
+  Assets\AnimatorController\NinjutsuCamera.controller
+  Assets\AnimatorController\Sarada.controller
+  Assets\AnimatorController\SaradaSelect.controller
+  Assets\GameObject\Kunai Chakra.prefab
+  Assets\GameObject\shuriken Chakra.prefab
+  Assets\GameObject\shuriken.prefab
+  Assets\GameObject\substitution_obj.prefab
+
+## Scripts .cs (todos)
+  Assets\Scripts\Assembly-CSharp\cameraSC.cs  (2702 bytes)
+  Assets\Scripts\Assembly-CSharp\collisionSC.cs  (2705 bytes)
+  Assets\Scripts\Assembly-CSharp\ColorSuite.cs  (2704 bytes)
+  Assets\Scripts\Assembly-CSharp\controller.cs  (2704 bytes)
+  Assets\Scripts\Assembly-CSharp\eyes.cs  (2698 bytes)
+  Assets\Scripts\Assembly-CSharp\FastMobileBloom.cs  (2709 bytes)
+  Assets\Scripts\Assembly-CSharp\GameOptions.cs  (2705 bytes)
+  Assets\Scripts\Assembly-CSharp\GE_ToggleFullScreenUI.cs  (2715 bytes)
+  Assets\Scripts\Assembly-CSharp\GE_UIResponder.cs  (2708 bytes)
+  Assets\Scripts\Assembly-CSharp\loadingScreen.cs  (2707 bytes)
+  Assets\Scripts\Assembly-CSharp\MyController.cs  (2706 bytes)
+  Assets\Scripts\Assembly-CSharp\ShadowComponentToGO.cs  (2713 bytes)
+  Assets\Scripts\Assembly-CSharp\ShadowMeshCreator.cs  (2711 bytes)
+  Assets\Scripts\Assembly-CSharp\ShadowVolume.cs  (2706 bytes)
+  Assets\Scripts\Assembly-CSharp\ShadowVolumeBackend.cs  (2713 bytes)
+  Assets\Scripts\Assembly-CSharp\ShadowVolumeRenderer.cs  (2714 bytes)
+  Assets\Scripts\Assembly-CSharp\ShadowVolumeSource.cs  (2712 bytes)
+  Assets\Scripts\Assembly-CSharp\SkinnedShadowVolume.cs  (2713 bytes)
+  Assets\Scripts\Assembly-CSharp\throwingObject.cs  (2708 bytes)
+  Assets\Scripts\Assembly-CSharp\com\cortastudios\DynamicColorCorrection\ColorCurvesManager.cs  (2814 bytes)
+  Assets\Scripts\Assembly-CSharp\com\cortastudios\DynamicColorCorrection\DemoScene\DemoCurveImageBehavior.cs  (2828 bytes)
+  Assets\Scripts\Assembly-CSharp\DynamicShadowProjector\DrawSceneObject.cs  (2794 bytes)
+  Assets\Scripts\Assembly-CSharp\DynamicShadowProjector\DrawTargetObject.cs  (2795 bytes)
+  Assets\Scripts\Assembly-CSharp\DynamicShadowProjector\FollowTargetObject.cs  (2797 bytes)
+  Assets\Scripts\Assembly-CSharp\DynamicShadowProjector\MipmappedShadowFallback.cs  (2802 bytes)
+  Assets\Scripts\Assembly-CSharp\DynamicShadowProjector\ShadowTextureRenderer.cs  (2800 bytes)
+  Assets\Scripts\Assembly-CSharp\DynamicShadowProjector\Sample\Rotate.cs  (2792 bytes)
+  Assets\Scripts\Assembly-CSharp\DynamicShadowProjector\Sample\Swing.cs  (2791 bytes)
+  Assets\Scripts\Assembly-CSharp\FantasySkyFree\GE_FantasySkyboxFREE_Demo.cs  (2796 bytes)
+  Assets\Scripts\Assembly-CSharp\FantasySkyFree\GE_FantasySkyboxFREE_UIs.cs  (2795 bytes)
+  Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\ColorCorrectionCurves.cs  (2810 bytes)
+  Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\ColorCorrectionLookup.cs  (2810 bytes)
+  Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\ColorCorrectionRamp.cs  (2808 bytes)
+  Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\ImageEffectBase.cs  (2804 bytes)
+  Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\ImageEffects.cs  (2801 bytes)
+  Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\PostEffectsBase.cs  (2804 bytes)
+  Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\PostEffectsHelper.cs  (2806 bytes)
+  Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\Quads.cs  (2794 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro_FontUtilities.cs  (2713 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro_MeshUtilities.cs  (2713 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro_Private.cs  (2707 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro_ShaderUtilities.cs  (2715 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro_UGUI_Private.cs  (2712 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMP_CoroutineTween.cs  (2712 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMP_SpriteAssetImportFormats.cs  (2722 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMP_UpdateRegistery.cs  (2713 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\FastAction.cs  (2772 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\MaterialReferenceManager.cs  (2786 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\PackageResourceImporterWindow.cs  (2791 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TextContainer.cs  (2775 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TextMeshPro.cs  (2773 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TextMeshProUGUI.cs  (2777 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMPro_EventManager.cs  (2780 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMPro_ExtensionMethods.cs  (2784 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Asset.cs  (2771 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_ColorGradient.cs  (2779 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Compatibility.cs  (2779 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_DefaultControls.cs  (2781 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Dropdown.cs  (2774 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_FontAsset.cs  (2775 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_InputField.cs  (2776 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_InputValidator.cs  (2780 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_LineInfo.cs  (2774 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_ListPool.cs  (2774 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_MaterialManager.cs  (2781 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_MeshInfo.cs  (2774 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_ObjectPool.cs  (2776 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_ScrollbarEventHandler.cs  (2787 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SelectionCaret.cs  (2780 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Settings.cs  (2774 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Sprite.cs  (2772 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SpriteAnimator.cs  (2780 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SpriteAsset.cs  (2777 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Style.cs  (2771 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_StyleSheet.cs  (2776 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SubMesh.cs  (2773 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SubMeshUI.cs  (2775 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Text.cs  (2770 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_TextElement.cs  (2777 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_TextInfo.cs  (2774 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_TextUtilities.cs  (2779 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_UpdateManager.cs  (2779 bytes)
+  Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_XmlTagStack.cs  (2777 bytes)
+  Assets\Scripts\Unity.TextMeshPro.Tests\TMPro\TMP_RuntimeTests.cs  (2778 bytes)
+  Assets\Scripts\UnityEngine.GoogleAudioSpatializer\UnityEngine\Experimental\Audio\Google\GvrAudioListenerExtension.cs  (2819 bytes)
+  Assets\Scripts\UnityEngine.GoogleAudioSpatializer\UnityEngine\Experimental\Audio\Google\GvrAudioRoom.cs  (2806 bytes)
+  Assets\Scripts\UnityEngine.GoogleAudioSpatializer\UnityEngine\Experimental\Audio\Google\GvrAudioSoundfieldExtension.cs  (2821 bytes)
+  Assets\Scripts\UnityEngine.GoogleAudioSpatializer\UnityEngine\Experimental\Audio\Google\GvrAudioSourceExtension.cs  (2817 bytes)
+  Assets\Scripts\UnityEngine.HoloLens\UnityEngine\Audio\AudioSpatializerMicrosoft.cs  (2799 bytes)
+  Assets\Scripts\UnityEngine.HoloLens\UnityEngine\EventSystems\HoloLensInput.cs  (2794 bytes)
+  Assets\Scripts\UnityEngine.HoloLens\UnityEngine\EventSystems\HoloLensInputModule.cs  (2800 bytes)
+  Assets\Scripts\UnityEngine.HoloLens\UnityEngine\XR\WSA\SpatialMappingBase.cs  (2793 bytes)
+  Assets\Scripts\UnityEngine.HoloLens\UnityEngine\XR\WSA\SpatialMappingCollider.cs  (2797 bytes)
+  Assets\Scripts\UnityEngine.HoloLens\UnityEngine\XR\WSA\SpatialMappingRenderer.cs  (2797 bytes)
+  Assets\Scripts\UnityEngine.IMGUIModule\UnityEngine\GUISkin.cs  (2775 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkAnimator.cs  (2794 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkBehaviour.cs  (2795 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkDiscovery.cs  (2795 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkIdentity.cs  (2794 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkLobbyManager.cs  (2798 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkLobbyPlayer.cs  (2797 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkManager.cs  (2793 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkManagerHUD.cs  (2796 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkMigrationManager.cs  (2802 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkProximityChecker.cs  (2802 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkStartPosition.cs  (2799 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkTransform.cs  (2795 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkTransformChild.cs  (2800 bytes)
+  Assets\Scripts\UnityEngine.Networking\UnityEngine\Networking\NetworkTransformVisualizer.cs  (2805 bytes)
+  Assets\Scripts\UnityEngine.SpatialTracking\UnityEngine\Experimental\XR\Interaction\BaseArmModel.cs  (2808 bytes)
+  Assets\Scripts\UnityEngine.SpatialTracking\UnityEngine\Experimental\XR\Interaction\BasePoseProvider.cs  (2812 bytes)
+  Assets\Scripts\UnityEngine.SpatialTracking\UnityEngine\SpatialTracking\TrackedPoseDriver.cs  (2801 bytes)
+  Assets\Scripts\UnityEngine.StyleSheetsModule\UnityEngine\StyleSheets\StyleSheet.cs  (2790 bytes)
+  Assets\Scripts\UnityEngine.TestRunner\UnityEngine\TestTools\TestRunner\PlaymodeTestsController.cs  (2812 bytes)
+  Assets\Scripts\UnityEngine.TestRunner\UnityEngine\TestTools\TestRunner\Callbacks\PlayModeRunnerCallback.cs  (2821 bytes)
+  Assets\Scripts\UnityEngine.TestRunner\UnityEngine\TestTools\TestRunner\Callbacks\RemoteTestResultSender.cs  (2821 bytes)
+  Assets\Scripts\UnityEngine.TilemapModule\UnityEngine\Tilemaps\Tile.cs  (2781 bytes)
+  Assets\Scripts\UnityEngine.TilemapModule\UnityEngine\Tilemaps\TileBase.cs  (2785 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\ActivationPlayableAsset.cs  (2800 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\ActivationTrack.cs  (2792 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\AnimationPlayableAsset.cs  (2799 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\AnimationTrack.cs  (2791 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\AudioPlayableAsset.cs  (2795 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\AudioTrack.cs  (2787 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\BasicPlayableBehaviour.cs  (2799 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\ControlPlayableAsset.cs  (2797 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\ControlTrack.cs  (2789 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\GroupTrack.cs  (2787 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\PlayableTrack.cs  (2790 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\TimelineAsset.cs  (2790 bytes)
+  Assets\Scripts\UnityEngine.Timeline\UnityEngine\Timeline\TrackAsset.cs  (2787 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\BaseInput.cs  (2790 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\BaseInputModule.cs  (2796 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\BaseRaycaster.cs  (2794 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\EventSystem.cs  (2792 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\EventTrigger.cs  (2793 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\Physics2DRaycaster.cs  (2799 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\PhysicsRaycaster.cs  (2797 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\PointerInputModule.cs  (2799 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\StandaloneInputModule.cs  (2802 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\TouchInputModule.cs  (2797 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\EventSystems\UIBehaviour.cs  (2792 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\AspectRatioFitter.cs  (2788 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\BaseMeshEffect.cs  (2785 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Button.cs  (2777 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\CanvasScaler.cs  (2783 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\ContentSizeFitter.cs  (2788 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Dropdown.cs  (2779 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Graphic.cs  (2778 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\GraphicRaycaster.cs  (2787 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\GridLayoutGroup.cs  (2786 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\HorizontalLayoutGroup.cs  (2792 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\HorizontalOrVerticalLayoutGroup.cs  (2802 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Image.cs  (2776 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\InputField.cs  (2781 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\LayoutElement.cs  (2784 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\LayoutGroup.cs  (2782 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Mask.cs  (2775 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\MaskableGraphic.cs  (2786 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Outline.cs  (2778 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\PositionAsUV1.cs  (2784 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\RawImage.cs  (2779 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\RectMask2D.cs  (2781 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Scrollbar.cs  (2780 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\ScrollRect.cs  (2781 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Selectable.cs  (2781 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Shadow.cs  (2777 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Slider.cs  (2777 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Text.cs  (2775 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\Toggle.cs  (2777 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\ToggleGroup.cs  (2782 bytes)
+  Assets\Scripts\UnityEngine.UI\UnityEngine\UI\VerticalLayoutGroup.cs  (2790 bytes)
+  Assets\Scripts\UnityEngine.UIElementsModule\UnityEngine\Experimental\UIElements\TemplateAsset.cs  (2805 bytes)
+  Assets\Scripts\UnityEngine.UIElementsModule\UnityEngine\Experimental\UIElements\VisualTreeAsset.cs  (2807 bytes)
+
+## Scripts del juego: GUID del .meta y primeras lineas
+  [controller] Assets\Scripts\Assembly-CSharp\controller.cs   guid: a0f4eba8081999a770895ab94334f559
+      | using UnityEngine;
+      | 
+      | public class controller : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [MyController] Assets\Scripts\Assembly-CSharp\MyController.cs   guid: ff7f47431985212190c945b4ecaa2bc4
+      | using UnityEngine;
+      | 
+      | public class MyController : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [cameraSC] Assets\Scripts\Assembly-CSharp\cameraSC.cs   guid: 96880b57ffe9f3d76777e6190d3288b0
+      | using UnityEngine;
+      | 
+      | public class cameraSC : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [throwingObject] Assets\Scripts\Assembly-CSharp\throwingObject.cs   guid: 3d1af0619a202e2a7b3c288bb7f63acf
+      | using UnityEngine;
+      | 
+      | public class throwingObject : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [collisionSC] Assets\Scripts\Assembly-CSharp\collisionSC.cs   guid: 762bdceaae08ad20d1b57ba6c6703782
+      | using UnityEngine;
+      | 
+      | public class collisionSC : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [eyes] Assets\Scripts\Assembly-CSharp\eyes.cs   guid: e5b73c0c99e021364a8c64b59ac8ada9
+      | using UnityEngine;
+      | 
+      | public class eyes : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [loadingScreen] Assets\Scripts\Assembly-CSharp\loadingScreen.cs   guid: 42a564c9a24dbf28568d7324cf9321a8
+      | using UnityEngine;
+      | 
+      | public class loadingScreen : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [GameOptions] Assets\Scripts\Assembly-CSharp\GameOptions.cs   guid: 53d0beaff27503edde9466ee78d625dd
+      | using UnityEngine;
+      | 
+      | public class GameOptions : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [FastMobileBloom] Assets\Scripts\Assembly-CSharp\FastMobileBloom.cs   guid: 0e522773800a4f59d9ac3553c29d83e8
+      | using UnityEngine;
+      | 
+      | public class FastMobileBloom : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+  [ColorSuite] Assets\Scripts\Assembly-CSharp\ColorSuite.cs   guid: 86935e7e1e701a0a725bccb422db51a0
+      | using UnityEngine;
+      | 
+      | public class ColorSuite : MonoBehaviour
+      | {
+      | 	/*
+      | 	Dummy class. This could have happened for several reasons:
+      | 
+      | 	1. No dll files were provided to AssetRipper.
+      | 
+      | 		Unity asset bundles and serialized files do not contain script information to decompile.
+      | 			* For Mono games, that information is contained in .NET dll files.
+      | 			* For Il2Cpp games, that information is contained in compiled C++ assemblies and the global metadata.
+      | 			
+      | 		AssetRipper usually expects games to conform to a normal file structure for Unity games of that platform.
+      | 		A unexpected file structure could cause AssetRipper to not find the required files.
+      | 
+      | 	2. Incorrect dll files were provided to AssetRipper.
+      | 
+      | 		Any of the following could cause this:
+      | 			* Il2CppInterop assemblies
+      | 			* Deobfuscated assemblies
+      | 			* Older assemblies (compared to when the bundle was built)
+      | 			* Newer assemblies (compared to when the bundle was built)
+      | 
+      | 		Note: Although assembly publicizing is bad, it alone cannot cause empty scripts. See: https://github.com/AssetRipper/AssetRipper/issues/653
+
+## Log de AssetRipper (errores, avisos e IL2CPP)
+  (39 lineas coinciden; se muestran hasta 300)
+  General : ExportRootPath: C:\Users\yunio\Documents\GitHub\psvitagame\export\AssetRipper\Ripped
+  General : ScriptContentLevel: Level2
+  General : ScriptExportMode: Hybrid
+  General : ScriptLanguageVersion: AutoSafe
+  Import : Attempting to read files from C:\Users\yunio\Documents\GitHub\psvitagame\game - Copy
+  Import : PS4 game structure has been found at 'C:\Users\yunio\Documents\GitHub\psvitagame\game - Copy'
+  Import : Files use the 'Unknown' scripting backend.
+  Processing : Processing Scriptable Object Groups
+  Export : Attempting to export assets to C:\Users\yunio\Documents\GitHub\psvitagame\export\UnityProject...
+  Export [Warning] : Can't decode audio clip 'commse0_00019' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'attack2' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'jump1' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00026' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00018' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00050' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'attack1' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00020' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00021' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'dodge1' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00012' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'recoverChakra' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00027' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00029' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'hit3' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00033' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'hit4' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'hit1' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'jump2' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'throw1' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00007' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00031' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00023' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00022' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'step' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'commse0_00105' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'hit2' with Fmod5Sharp because it's 'HEVAG' encoded.
+  Export [Warning] : Can't decode audio clip 'hit_down' with Fmod5Sharp because it's 'HEVAG' encoded.
+  ExportProgress : (275/295) Exporting 'EmptyScriptExportCollection'
+  Export : Exporting scripts...
+
+## Ultimas 40 lineas del log
+  ExportProgress : (261/295) Exporting 'Toon/Lit'
+  ExportProgress : (262/295) Exporting 'Toon/My Toon Outline'
+  ExportProgress : (263/295) Exporting 'Armature_0|Sarada_Lobby_GetSet_Loop_Armature_0'
+  ExportProgress : (264/295) Exporting 'Armature_0|Sarada_Lobby_Idle_Loop_Armature_0'
+  ExportProgress : (265/295) Exporting 'Armature_0|Sarada_Reaction1_Armature_0'
+  ExportProgress : (266/295) Exporting 'Armature_0|Sarada_Reaction2_Armature_0'
+  ExportProgress : (267/295) Exporting 'Sarada ModelAvatar'
+  ExportProgress : (268/295) Exporting 'SaradaSelect'
+  ExportProgress : (269/295) Exporting 'Combined Mesh (root: scene)'
+  ExportProgress : (270/295) Exporting 'Quad Mesh'
+  ExportProgress : (271/295) Exporting '1'
+  ExportProgress : (272/295) Exporting 'Cubemap'
+  Import : Resource file 'level0.resS' has been loaded
+  ExportProgress : (273/295) Exporting 'LightProbes'
+  ExportProgress : (274/295) Exporting 'load'
+  ExportProgress : (275/295) Exporting 'EmptyScriptExportCollection'
+  Export : Exporting scripts...
+  ExportProgress : (276/295) Exporting 'PlayerSettings'
+  ExportProgress : (277/295) Exporting 'InputManager'
+  ExportProgress : (278/295) Exporting 'TagManager'
+  ExportProgress : (279/295) Exporting 'AudioManager'
+  ExportProgress : (280/295) Exporting 'GraphicsSettings'
+  ExportProgress : (281/295) Exporting 'TimeManager'
+  ExportProgress : (282/295) Exporting 'DelayedCallManager'
+  ExportProgress : (283/295) Exporting 'PhysicsManager'
+  ExportProgress : (284/295) Exporting 'QualitySettings'
+  ExportProgress : (285/295) Exporting 'NavMeshProjectSettings'
+  ExportProgress : (286/295) Exporting 'Physics2DSettings'
+  ExportProgress : (287/295) Exporting 'RuntimeInitializeOnLoadManager'
+  ExportProgress : (288/295) Exporting 'PerformanceReportingManager'
+  ExportProgress : (289/295) Exporting 'StreamingManager'
+  ExportProgress : (290/295) Exporting 'EditorBuildSettings'
+  ExportProgress : (291/295) Exporting 'EditorSettings'
+  ExportProgress : (292/295) Exporting 'LightingData'
+  ExportProgress : (293/295) Exporting '1 (SceneAsset)'
+  ExportProgress : (294/295) Exporting 'LightingData'
+  ExportProgress : (295/295) Exporting 'load (SceneAsset)'
+  Export : Finished exporting assets
+  Export : Saving game assemblies...
+  Export : Finished post-export
