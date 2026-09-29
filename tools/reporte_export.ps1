@@ -76,6 +76,34 @@ else {
         Get-Content $f.FullName -TotalCount 25 | ForEach-Object { Add ("      | " + $_) }
     }
     Add ""
+
+    Add "## Datos de scripts dentro de las escenas"
+    foreach ($scene in ($files | Where-Object { $_.Extension -eq '.unity' })) {
+        $txt = [IO.File]::ReadAllText($scene.FullName)
+        Add ("  " + $scene.Name + ": m_Script=" + ([regex]::Matches($txt, 'm_Script:')).Count)
+        foreach ($k in 'hpMax:', '_name: PunchR', 'basicDist:', 'stepHeight:', 'gravity:', 'm_Sprite:') {
+            $m = [regex]::Matches($txt, [regex]::Escape($k))
+            Add ("      {0,-16} {1}" -f $k, $m.Count)
+        }
+    }
+    Add ""
+
+    Add "## Audio dentro de Assets"
+    foreach ($ext in '.wav', '.audioclip', '.resS') {
+        Add ("  {0,-10} {1}" -f $ext, ($files | Where-Object { $_.Extension -eq $ext }).Count)
+    }
+    Add ""
+
+    Add "## DLLs dentro de Assets"
+    $files | Where-Object { $_.Extension -eq '.dll' } | ForEach-Object { Add ("  " + $_.FullName.Substring($root.Length + 1)) }
+    Add ""
+}
+
+$resumenFile = Join-Path $export 'rehacer_resumen.txt'
+if (Test-Path $resumenFile) {
+    Add "## Resumen de rehacer_export.ps1"
+    Get-Content $resumenFile | ForEach-Object { Add ("  " + $_) }
+    Add ""
 }
 
 Add "## Log de AssetRipper (errores, avisos e IL2CPP)"

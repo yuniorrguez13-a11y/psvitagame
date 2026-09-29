@@ -44,3 +44,16 @@ python3 tools/dump_scenes.py "$GAME/Media" $WORK/dump/DummyDll analysis/scenes
 Nota: Il2CppDumper no puede mostrar los *field offsets* (salen `0xFFFFFFFF`) porque el compilador de Sony
 (SNC) inicializa esas tablas en tiempo de ejecución. `annotate.py` los recalcula a partir de `il2cpp.h`
 (ver `analysis/il2cpp/field_layouts.txt`).
+
+## Scripts para Windows (se corren en la PC del usuario)
+
+| Script | Qué hace |
+|---|---|
+| `exportar_con_assetripper.ps1` | Primer export con AssetRipper. AssetRipper no reconoce el formato IL2CPP de Vita, así que los scripts salen vacíos y las escenas pierden sus datos. |
+| `rehacer_export.ps1` | Export bueno: copia el juego a `export\input`, añade `Media\Managed\*.dll` (las DLL limpias de `analysis/il2cpp/ManagedDlls`) para que AssetRipper lo trate como Mono y conserve los datos de los scripts, mete los scripts reconstruidos manteniendo sus `.meta`, convierte el audio HE-VAG a `.wav` con vgmstream y sube solo el informe de texto. |
+| `reporte_export.ps1` | Resume el proyecto exportado en `analysis/export_report.txt` (solo nombres, contadores y líneas del log). |
+| `recuperar_export_y_subir_informe.ps1` | Recupera `export\` si quedó dentro de un commit local de `main` y deja `main` igual que en GitHub. |
+
+`strip_dummy_attrs/` es el programa (Mono.Cecil) que generó `analysis/il2cpp/ManagedDlls`: quita los
+atributos `Il2CppDummyDll.*` que añade Il2CppDumper, para que las DLL parezcan ensamblados normales.
+Compilar con `dotnet run -p:CecilPath=<ruta a Mono.Cecil.dll> -- <DummyDll> <salida>`.
