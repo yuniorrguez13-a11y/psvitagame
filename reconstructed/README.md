@@ -28,13 +28,19 @@ Código C# de las 8 clases propias del juego, reconstruido a partir del binario 
 
 ## Cómo usarlos en un proyecto exportado con AssetRipper
 
-Las escenas no apuntan a los scripts por nombre sino por el GUID de su archivo `.meta`. Por eso:
+Las escenas no apuntan a los scripts por nombre sino por el GUID de su archivo `.meta`.
+`tools/rehacer_export.ps1` ya hace este paso automáticamente. A mano sería:
 
-1. Exporta el juego con `tools/exportar_con_assetripper.ps1`.
-2. Dentro del proyecto exportado busca los scripts que generó AssetRipper con el mismo nombre de clase
-   (normalmente en `Assets/Scripts/Assembly-CSharp/`).
-3. **Reemplaza solo el contenido** de cada `.cs` por el de esta carpeta. No borres ni recrees los
+1. Dentro del proyecto exportado busca los scripts con el mismo nombre de clase
+   (en `Assets/Scripts/Assembly-CSharp/`).
+2. **Reemplaza solo el contenido** de cada `.cs` por el de esta carpeta. No borres ni recrees los
    `.meta`, porque se perderían las referencias de las escenas.
+
+GUIDs de los scripts en el export (salen iguales en cada export, AssetRipper los calcula a partir del nombre):
+`controller` a0f4eba8081999a770895ab94334f559, `MyController` ff7f47431985212190c945b4ecaa2bc4,
+`cameraSC` 96880b57ffe9f3d76777e6190d3288b0, `throwingObject` 3d1af0619a202e2a7b3c288bb7f63acf,
+`collisionSC` 762bdceaae08ad20d1b57ba6c6703782, `eyes` e5b73c0c99e021364a8c64b59ac8ada9,
+`loadingScreen` 42a564c9a24dbf28568d7324cf9321a8, `GameOptions` 53d0beaff27503edde9466ee78d625dd.
 
 ## Dependencias de terceros (no incluidas)
 

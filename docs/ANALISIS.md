@@ -97,14 +97,16 @@ Sí. Estos son los caminos, de más a menos práctico:
 
 ### A. Proyecto de Unity en PC (recomendado para empezar)
 
-1. Exportar el build a un proyecto de Unity con `tools/exportar_con_assetripper.ps1` (en Windows).
+1. Correr `tools/rehacer_export.ps1` en Windows (una línea en PowerShell, ver `tools/README.md`). Hace el export
+   con AssetRipper usando las DLL del juego (así las escenas conservan los datos de los scripts), mete los scripts
+   reconstruidos manteniendo sus `.meta` y convierte los 28 sonidos HE-VAG de la Vita a `.wav` con vgmstream.
+   Resultado: `export\UnityProject\ExportedProject` (solo en tu PC, no se sube).
 2. Instalar **Unity 2018.4 LTS** desde Unity Hub (sección de versiones archivadas). Es la versión estable más
-   cercana a la 2018.2 que usó el autor.
-3. Reemplazar el contenido de los scripts exportados por los de `reconstructed/Assets/Scripts/`. Hay que
-   **mantener los `.meta`** para que las escenas no pierdan las referencias (ver `reconstructed/README.md`).
-4. Reinstalar los paquetes del Asset Store listados en `reconstructed/README.md`.
-5. Jugar y modificar en PC. En el editor el mando se lee con el mismo InputManager, y los botones de PS se pueden
-   mapear a un mando de PC.
+   cercana a la 2018.2 que usó el autor. Abrir con ella la carpeta `ExportedProject`.
+3. Los paquetes del Asset Store (sombras, bloom, skybox…) salen como scripts vacíos: el juego funciona, pero
+   sin esos efectos hasta que se reinstalen (lista en `reconstructed/README.md`).
+4. Jugar y modificar en PC. El InputManager del juego usa botones de mando (`joystick button 0..7`); con un
+   mando de Xbox: A = saltar, X = combo, B = kunai, RB = guardia, LB = chakra, Start = opciones.
 
 ### B. Volver a sacar builds para PS Vita
 
